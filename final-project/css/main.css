@@ -14,9 +14,11 @@ nav ul{
     list-style: none;
 }
 
+
 .cards header{
 background-color: #c78c06;
 margin: 6em;
+height: 800px;
 }
 
 .wrapper-about{
@@ -26,10 +28,14 @@ margin: 6em;
     color: black;
 }
 
+
 h2, h3, h4, h5 {
 color: black;
 }
 
+.services[
+    back
+]
 
 .search {
     align-content: center;
@@ -46,6 +52,8 @@ color: black;
 img{
     padding: 2%;
 }
+
+
 
 .topnav ul li {
     display: inline-block;
@@ -85,7 +93,10 @@ nav ul li{
 
 nav .btn{
     background-color: #c78c06;
-   
+   border: 1px solid black;
+   border-radius: 0rem;
+   padding: 1em;
+   color: black;
 }
 
 body{
@@ -100,9 +111,14 @@ body{
 }
 
 main h1{
-    font-size: 300px;
+    font-size: 200px;
     padding: 5%;
     text-align: left;
+}
+
+
+.h2{
+    font-size: 50px;
 }
 
 main p{
@@ -121,6 +137,9 @@ main nav{
     font-size: 100px;
 }
 
+.about-us{
+    font-size: 50px;
+}
 *,
 *:after,
 *:before {
@@ -136,6 +155,9 @@ main nav{
 
 img{
     width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    
 }
 
 /* loVe HAte: Link, Visited, Hover/Focus, Active */
@@ -232,3 +254,7 @@ max-width: 150px;
      DESKTOP STYLES
 ***************************/
 
+.container{
+    max-width: 1200px;
+    min-width: 760px;
+}
