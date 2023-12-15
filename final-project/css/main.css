@@ -14,21 +14,51 @@ nav ul{
     list-style: none;
 }
 
+.cards header{
+background-color: #c78c06;
+margin: 6em;
+}
+
+.wrapper-about{
+    background-color: #ffe6ac;
+    margin: 1em;
+    font-size: larger;
+    color: black;
+}
+
+h2, h3, h4, h5 {
+color: black;
+}
+
+
+.search {
+    align-content: center;
+    font-size: 30px;
+    border: solid black;
+    display: flexbox;
+    padding: 1%;
+    align-items: center;
+    border-radius: 0.5em;
+    width: 90%;
+    height: 1%;
+}
+
 img{
     padding: 2%;
 }
 
 .topnav ul li {
-display: inline-block;
-color: #c78c06;
-width: 100%;
-font-size: 80px;
-text-align: center;
-
-}
+    display: inline-block;
+    color: black;
+    width: 100%;
+    font-size: 55px;
+    line-height: 4;
+    text-align: center;
+      
+    }
 
 .header{
-    background-color: #c78c06; 
+    font-size: 20px;
   }
 
 .header img {
